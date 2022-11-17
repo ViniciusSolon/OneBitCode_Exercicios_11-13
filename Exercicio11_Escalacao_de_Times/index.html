@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Project By: Vinicius Solon 
+  Linkedin: https://www.linkedin.com/in/viniciussolon/
+  GitHub: https://github.com/ViniciusSolon-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+   
+    <h1>Escalar um Jogador</h1>
+    <hr />
+    <ul>
+      <li>
+        <label for="">Olá, diga o nome do jogador a ser escalado: </label>
+        <input type="text" name="nome" id="nome"> </input>
+      </li>
+      <br>
+        <li>
+          <label for="">Agora, diga a posição do jogador a ser escalado: </label>
+          <input type="text" name="posicao" id="posicao"> </input>
+        </li>
+        <br>
+        <li>
+          <label for="">Agora, diga o número do jogador a ser escalado: </label>
+          <input type="text" name="numero" id="numero">
+        </li>
+        <br>
+        <button onclick="escalarJogador() ">Escalar</button>
+    </ul>
+    <h1>Remover um Jogador</h1>
+    <hr />
+    <ul>
+      <li>
+        <label for="">Diga o número do jogador a ser removido: </label>
+        <input type="text" name="numberToRemove" id="numberToRemove"> </input>
+      </li>
+      <br>
+    <button onclick="removerJogador()">Remover um Jogador</button>
+      </ul>
+    <section id="escalar-list"></section>
+    <script src="js.js"></script>
+  </body>
+</html>
